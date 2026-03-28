@@ -65,6 +65,6 @@ APP_CONFIG = {
         "WEBSOCKET_URL": "wss://api.tenclass.net/xiaozhi/v1/",
         "WEBSOCKET_ACCESS_TOKEN": "", #（可选）一般用不到这个值
         "VERIFICATION_CODE": "", # 首次对话时，验证码会在这里更新
-        "DEVICE_ID": "", # 如果没有提示绑定设备，则将 DEVICE_ID 清空后，重启应用再次尝试
+        "DEVICE_ID": "c6:25:ea:02:ac:40", # 如果没有提示绑定设备，则将 DEVICE_ID 清空后，重启应用再次尝试
     },
 }
